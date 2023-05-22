@@ -1,0 +1,20 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 300px;
+    height: 300px;
+  }
+  
+  #board div {
+    border: 1px solid #aaa;
+  }
+  
+  .hit {
+    background-color: red;
+  }
+  
+  .miss {
+    background-color: gray;
+  }
+ 
